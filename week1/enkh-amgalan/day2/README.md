@@ -1,5 +1,5 @@
-#git & github notes
-#what we learned in today's task video
+# git & github notes
+# what we learned in today's task video 
 
 
 Git is a version control system that allows you to keep track of changes to files and collaborate with others on a project.
