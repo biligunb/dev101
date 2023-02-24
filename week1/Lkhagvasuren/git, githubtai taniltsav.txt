@@ -1,0 +1,25 @@
+git -tuuhiig hadgaldag
+bagaar ajillahad, version holihguigees sergiilj ashiglahad zgr.
+
+visual studio code-iin terminalaar git-iig ajilluulj bolno.
+
+yaj tuuh hadgaldag be gevel
+$git init - git hadgalad tuuhiig uusgene
+$git status - git bn uu ugui yu haruulna.
+$ git add . - buh file nemeh
+//nogoon bolchuul orood irtsen. commit hiihed bolno.
+$ git commit -m "anhnii file oruulav." - anhnii file oruulav. gesen tuuh uussen.
+$git push - oor gazar hadgalsan commitoo yvuulah. (remoteluugee yvuulah)
+
+github ni bol git-d zoriulsan online gituudiin portol.
+
+vs-d change orson bol pluginaas hamaaraad, oorchloltiig ni haruulaad, push hiihiig zovoldog.
+
+$git add {file.name}
+
+gitignore - git deer orj irehgui fileuudiig tohiruulah
+$git diff - oorchloltiig ni harah
+$git pull - cloud, esvel github-aasaa suuliin huvilbariig tataj avah.
+$git checkout -b test - test branch uusgej bn.
+
+branchees uildel hiivel, pull requests hesgees zovshoorogdoh shaardlagatai.
