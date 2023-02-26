@@ -1,0 +1,26 @@
+what does developer do?
+
+tosol hiine. 4-9 sar bolno
+dotor ni requirement, design, planning, coding, testing. ene ni waterfall zagvaraar baij bolno. esvel agile.
+agile, waterfalliin yalgaa ni neg bol zaaval daraalaltai. esvel negiig ni duusgaj baij nogoog ni hiih.
+bag ni 2 pizzatai baihad tsadah baihad zgr. neg hun zovhon neg ymaa hiihgui, davhar uuregtei. bas tsoohon huntei bol iluu hurdan ajildag.
+devops(front, back, infra)
+developers->sem->pm
+
+ROUTING
+meeting
+crum
+daily report
+weekly review
+monthly KPT
+
+1 day
+ogloo shift-time, esvel yag tsagtaa
+issue planning
+sudalgaa, coding, test
+review, documentation bichih
+meeting.
+
+hogjuuleltiin hiideg zuiliin 50% ni l code bichih.
+
+hogjuulegch systemee uusgene, systemiin codeoo bichne.
