@@ -1,4 +1,4 @@
-# Developer's Day:
+# Developer's Day note:
 
 Starts with checking emails and messages, addressing any urgent issues that arose overnight.
 
