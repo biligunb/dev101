@@ -1,0 +1,3 @@
+# As a front-end developer, I use ziplin and figma to do ui/ux design with my teammates.  For code editor and version control system, like most developers, Vs code and git are used.  Another important thing for a front-end developer is, of course, images and fonts.  I use these things from google fonts and unsplash.  
+# Differences and similar things:
+ of course I use Google Sheets, I don't use daily report or chatwork, so it's easier in some cases because I talk directly, I mostly use Postman for Api testing, and I use Windows Terminal for terminal.
