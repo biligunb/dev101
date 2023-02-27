@@ -37,16 +37,51 @@ project = {
 pizza = {
     slice: 8
 }
-
 team = {// 2 pizza team
     pizza: 2,
     maxMembers: floor(team.pizza * pizza.slice / developer.eatSlice),
     roles: ["frontend","backend","infra","sem","pm"],
+    routine:{
+        meeting: {
+            every: "monday",
+            timeRange:{
+                min: 30,
+                max: 60,
+                type: "minute"
+            }
+        },
+        scrum: {
+            every: "morning",
+            timeRange:{
+                min: 10,
+                max: 15,
+                type: "minute"
+            }
+        },
+        dailyReport: {
+            every: "day",
+            note: "did"
+        },
+        weeklyReview: {
+            every: "friday"
+        },
+        monthlyKPT: {
+            every: "month",
+            note: "good or bad"
+        }
+    }
 }
-
 developer = {
     eatSlice: 3,
-    minRole: 2
+    minRole: 2,
+    oneDay: {
+        shiftTime: "morning",
+        issues: ["todo","doing","done"],
+        issue: ["research", "coding", "testing"],
+        review: "merge request",
+        documentation: "wiki",
+        meeting: "pin point"
+    }
 }
     
 
