@@ -1,0 +1,21 @@
+PROFOLIO PLANNING
+
+Enehuu ajil maani 4n phasetai baina.
+
+Phase #1: landing page(HTML+CSS)
+landing page deer ooriinhoo zurgiig, yronhii medeeleltei oruulah ba, design ni goy baival deer.
+mon ene hesegt busad pageluu oroh buttonoo oruulj irne.
+Phase #2: landing page-ees shiljij ochih pageuud (HTML + CSS + JAVASCRIPT)
+intro (ooriin medeelel)
+-end ooriinhoo cv deer baisan bolovsrol, ooriin skill bolon certificateuudaa mon ooriinhoo intern hiij baisan turshlaguudaa oruulj irne.
+project (technologiin, niigmiin)
+end ooriinhoo hamtran ajillaj bsn, gar biy oroltsoj bsn tosluudiig oruulna.
+contact
+ooriinhoo holboo barih dugaar, facebook, instagram bolon linkedinii linkuudiig oruulj ogno.
+Phase #3:effectuud
+home page-ees busad pageluu shiljih effect.
+mon componentuud deer ogoh effect.
+dooroos ursaj ireh geh met.
+Phase #4: publish hiih
+github deer publish hiine.
+ene uyd github deeree zoriulj seo hiine. mon feature photo hiine.
