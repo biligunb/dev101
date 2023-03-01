@@ -3,7 +3,7 @@
 # Энэхүү Web маань 5 phase-тай байна.
 
 
-# Phase 1 Target audience UI/UX
+# Phase 1: Target audience UI/UX
 
 Энэхүү вебийг маань хэдээс хэдэн насны хүн үзэх, вебийг үзэх ажил олгогчид ихэвчлэн хэдэн насныхан байхыг тодорхойлно.
 
@@ -18,7 +18,7 @@ UI-ийн хувьд илүү орчин үеийн, ажил олгогчийн
 
 Мөн бүрэн Responsive байлгах  
 
-# Phase 2 FILE STRUCTURE AND LAYOUT 
+# Phase 2: FILE STRUCTURE AND LAYOUT 
 # Pages
 Веб нь Home, Contact, Service, About гэсэн хэсгүүдээс тогтоно.
 # Home 
@@ -57,7 +57,7 @@ Service хуудсанд байна.
 # Footer component
 info, бусад Platform-руу үсрэх холбоос байна.
 
-# Phase 3 Coding
+# Phase 3: Coding
 # Ашиглагдах Framework, Library болон Languages
 html/css, Javascript, React and Tailwind css
 # Ашиглах
@@ -70,9 +70,9 @@ Animation, Hover effect хийх
 Цаашид шинэ зүйл оруулж ирэхэд өмнөх кодыг гэмтээхгүйгээр программчлах
 Бэлэн болсон component-уудыг холбож, угсарна.
 
-# Phase 4 Testing and Launch
+# Phase 4: Testing and Launch
 -Product болгож гаргахад бэлэн болгох 
 -Кодыг алдаа гарахаас сэргийлж хэд хэдэн удаа тестэлж үзэх 
 
-# Phase 5 Deploy
+# Phase 5: Deploy
 Бэлэн болсон Product-ийг domain авах эсвэл үнэгүй deploy хийдэг газруудаар дамжуулж интернэтэд байршуулна. /Netlify, Heroku гэх мэт/.
