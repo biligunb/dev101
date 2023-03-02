@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
+    z-index: 99;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.items {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+.items > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+.items::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.items:hover::after {
+    width: 2rem;
+}
+
+
+
+
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+      url("https://images.unsplash.com/photo-1523633589114-88eaf4b4f1a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+        no-repeat center bottom / cover;
+    color: whitesmoke;
+  }
+  .hero-container {
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  .hero .info h1 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+    font-family: cursive;
+  }
+  .hero .info h2 {
+      font-family: cursive;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .hero .info p {
+    font-size: 1.2rem;
+    max-width: 50%;
+  }
+  .hero .info .click{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.5em 2em;
+    margin-top: 2rem;
+    color: black;
+  }
+  
+  .hero .info .credit{
+      color: #fff;
+      margin-top: 2rem;
+    }
+  
+    .hero .info .credit a{
+      text-decoration: none;
+      color: violet;
+      margin-top: 2rem;
+    }
+   .info  .click:hover {
+    transition:all ease-in 0.4s ;
+        color: #fff;
+        background-color: #333;
+    }
+  
