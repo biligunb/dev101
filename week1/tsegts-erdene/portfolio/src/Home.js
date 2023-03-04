@@ -2,8 +2,8 @@ import React from 'react'
 import './Home.css'
 const Home = () => {
   return (
-    <div className='container'>  
-        <h1>
+    <div className='container'>
+    <h1>
     Цэгц-Эрдэнэ Гантулга
 </h1>
 <p className='email'>
@@ -83,7 +83,6 @@ const Home = () => {
 </h2>
 <ul>
 <li>
-   
     <a
         href="https://www.credly.com/badges/41c0e9ab-428d-4e86-9fe0-67a5e9e7ba82"
     >
@@ -91,7 +90,6 @@ const Home = () => {
     </a>
 </li>
 <li>
-   
     <a
         href="https://www.credly.com/badges/e16019ee-f317-48c2-95b3-b71257b6d2a3"
     >
@@ -99,7 +97,6 @@ const Home = () => {
     </a>
 </li>
 <li>
-   
     <a
         href="https://www.credly.com/badges/cafe0538-2fa7-47a0-8652-57295c2521a4/public_url"
     >
@@ -107,7 +104,6 @@ const Home = () => {
     </a>
 </li>
 <li>
-   
     <a
         href="https://www.credly.com/badges/cafe0538-2fa7-47a0-8652-57295c2521a4/public_url"
     >
@@ -115,7 +111,6 @@ const Home = () => {
     </a>
 </li>
 <li>
-   
     <a
         href="https://www.credly.com/badges/145f4c1e-d391-4659-baf7-4da724d31c5e/public_url"
     >
@@ -123,7 +118,6 @@ const Home = () => {
     </a>
 </li>
 <li>
-   
     <a
         href="https://courses.edx.org/certificates/4d44b769e7a8483aa9c080d71eb11fd5"
     >
