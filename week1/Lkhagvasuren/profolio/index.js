@@ -5,6 +5,7 @@ let activeLink = 0
 
 links.forEach((link, i) => {
   link.addEventListener('click', () => {
+    // eslint-disable-next-line eqeqeq
     if (activeLink != i) {
       links[activeLink].classList.remove('active')
       link.classList.add('active')
