@@ -5,5 +5,5 @@ COPY package*.json .
 RUN npm install && npm install typescript -g
 COPY . .
 RUN npm build
-EXPOSE ${CLIENT_PORT}
+EXPOSE ${REACT_LOCAL_PORT}
 CMD ["npm", "start"]
