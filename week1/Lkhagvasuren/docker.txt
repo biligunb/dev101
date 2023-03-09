@@ -1,0 +1,24 @@
+docker
+minii com deer ajillaj baigaa program oor gazar ochson ch ajillahaar program.
+
+virtual machinetai tostei ch iluu ur ashigtai.
+
+1. dockerfile
+2. image
+3. container
+
+iim daraallaar ajilladag.
+
+olon commanduudtai.
+
+image ni layeruudees uusdeg. daraallaj ajillaj, suuldee container uusne.
+
+ingeed orchin burdeed, olon containeruudtai bolchuul docker compose ajilluulj control hiideg.
+uundee negen deer ni react.js nogoo deer ni nest.js tegeed mysql suulgaj tegeed ajilluulj bolno.
+
+extensioneer vsees udirdval hamaagui amar
+
+# Docker Image нэрийг өгөн ажиллуулна (+бусад тохиргоо)
+docker run --name <container_name> -d -p 8080:80 -ti <image_name>
+# Docker Container-үүдийг жагсаах
+docker ps

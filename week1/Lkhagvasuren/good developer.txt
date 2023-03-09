@@ -1,0 +1,20 @@
+good developer
+
+PROGRAMS MUST BE WRITTEN FOR PEOPLE TO READ, AND ONLY INCIDENTALLY FOR MACHINES TO EXECUTE.
+
+Newbie -> Programmer -> Developer -> Software engineer
+(hiideg ajil, turshlagaas hamaaran shat ahina.)
+
+hend ch oilgogdoh teneg code bichij chadah humuus bol developer bolon software engineer.
+
+good developer:
+MVC
+-model, view, controller
+CODING PRINCIPLE
+-kiss,dry,yagni,boy scout rule
+COMMENT - heregtei uyd ni bichih, teneg hund oilgogdoh code uchir dandaa comment bicheed yah gesiin
+LINTER buyu code-iin aldaag, gargaj irdeg extension
+HARILTSAH gedeg ni neg chuhal heseg. tegej baij usuj devshine.
+TUSLAMJ (25%)
+BIG PICTURE
+NONSTOPPABLE

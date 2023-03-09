@@ -1,0 +1,8 @@
+tsegts-erdenenii pull requested comment uldeev.
+
+dockerfile bolon dockercompose shalgav.
+dockerfile ajilllaj bn.
+dockercompose ajilluulav. ajillaj bn. gehdee http://localhost:3001/api/#/ buyu api ni ajillahgui bn.
+
+sain tal: gol ym ni ajillaj bn
+sul tal: api panel ajillahgui bn.

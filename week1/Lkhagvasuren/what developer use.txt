@@ -1,0 +1,36 @@
+what developer use?
+
+GOOGLE ENVIRONMENT
+-account
+-drive
+-sheet for working time
+CHATWORK
+-slack
+GITLAB
+-project control
+-todo, doing, done
+CODE EDITOR
+-visual studio, visual studio code
+TERMINAL
+-git, yakuake
+DATABASE workbench
+mySQL, SQLite
+SCREENSHOT/KAZAM/EZGIF
+-screenshot
+-screenrecord
+-video to gif
+
+oorteigoo haritsuulah:
+google evnironment togtmol ashigladag, pro erhtei
+chatworkiin huvid yponii companyd tsagiin ajil hiihed slackiig ashigladag, bas online office geed ovice ashigladag. shuud realtime hariltsah, ym hym shareleh, hural hiihed amar.
+visual studio code-iig busadtai l adilhan ashiglaj bn daa.
+terminaliin huvid visual studio code deeree powershelliin terminal ashigladag.
+database deer ooroo odoo surj baigaa bolhoor mySQL ashiglaj baigaa, gehdee vs deer baigaa extension ni amarhan ym bilee.
+screenshot ni windowsiin default uchir jaahan hetsuu, candaa crop hiideg. screen record deer OBS ashigladag.
+minii huvid front end taldaa uchir adobeiin programuudiig, ter dundaa photoshop, illustrator, figma ashigladag.
+mon mongold baihad asana neleen ashigladag bsn.
+linkuud:
+https://imgur.com/3KYSOoU (computer dee baigaa programuud)
+https://imgur.com/CBCxEjp (slack)
+https://imgur.com/undefined (ovice)
+https://imgur.com/undefined (google pro)
