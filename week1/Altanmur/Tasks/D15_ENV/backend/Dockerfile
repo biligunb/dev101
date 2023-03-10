@@ -3,6 +3,6 @@ WORKDIR /api
 COPY package*.json .
 RUN npm install && npm install typescript -g
 COPY . .
-RUN npm run build
+RUN npm build
 EXPOSE ${NEST_LOCAL_PORT}
-CMD [ "nest", "start" ]
+CMD [ "node", "dist/main.js" ]
