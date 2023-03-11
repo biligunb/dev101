@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  mysqldb:
+    image: mysql:5.7
+    restart: unless-stopped
+    env_file: ./.env
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQLDB_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQLDB_DATABASE}
+    ports:
+      - ${MYSQLDB_LOCAL_PORT}:3306
+    volumes:
+      - db:/var/lib/mysql
+    networks:
+      - backend
+  
+  backend:
+    depends_on:
+      - mysqldb
+    build: ./backend
+    restart: unless-stopped
+    env_file: ./.env
+    ports:
+      - ${NEST_LOCAL_PORT}:9000
+    environment:
+      - DB_HOST=mysqldb
+      - DB_USER=${MYSQLDB_USER}
+      - DB_PASSWORD=${MYSQLDB_ROOT_PASSWORD}
+      - DB_NAME=${MYSQLDB_DATABASE}
+      - DB_PORT=3307
+    networks:
+      - backend
+      - frontend
+
+  frontend:
+    depends_on:
+      - backend
+    build:
+      context: ./frontend
+    ports:
+      - ${REACT_LOCAL_PORT}:3000
+    networks:
+      - frontend
+
+volumes: 
+  db:
+
+networks:
+  backend:
+  frontend:
