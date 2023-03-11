@@ -1,0 +1,27 @@
+version: '3'
+services:
+  db:
+    image: mysql
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ./backend/Dockerfile
+    ports:
+      - "${BACKEND_PORT}:3000"
+    environment:
+      DB_PORT: ${DB_PORT}
+      DB_NAME: ${DB_NAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ./frontend/Dockerfile
+    ports:
+      - "${FRONTEND_PORT}:3000"
+    environment:
+      BACKEND_URL: "http://backend:${BACKEND_PORT}"
