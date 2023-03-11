@@ -8,14 +8,12 @@ services:
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
       MYSQL_DATABASE: ${DB_NAME}
 
-  # backend:
-  #   build: .
-  #   command: 
-  #     # - 
-  #   ports:
-  #     - "3001:3000"
-  #   depends_on:
-  #     - db
+  backend:
+    build: ./backend
+    ports:
+      - "3001:3000"
+    depends_on:
+      - db
 
   frontend:
     build: ./frontend
