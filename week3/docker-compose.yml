@@ -1,5 +1,39 @@
-version: '3'
+version: "3"
 services:
+  frontend:
+    build:
+      context: ./frontend
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+
+    volumes:
+      #   - /app/node_modules
+      - ./frontend/src:/app/src
+    ports:
+      - 80:3000
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      # target: development
+    volumes:
+      - ./backend/src:/app/src
+    ports:
+      - "3001:3000"
+    command: npm run start:dev
+    depends_on:
+      - db
+
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      NODE_ENV: development
+      DB_HOST: db
+      DB_PORT: ${DB_PORT}
+      DB_USER: root
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_NAME: ${DB_NAME}
+
   db:
     image: mysql:5.7
     ports:
@@ -7,21 +41,3 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
       MYSQL_DATABASE: ${DB_NAME}
-
-  backend:
-    build: ./backend
-    ports:
-      - "3001:3000"
-    depends_on:
-      - db
-
-  frontend:
-    build: ./frontend
-    ports:
-      - "3002:3000"
-    volumes:
-      - ./frontend/build:/app/build
-      - ./frontend/src:/app/src
-      - ./frontend/public:/app/public
-    # depends_on:
-    #   - backend
