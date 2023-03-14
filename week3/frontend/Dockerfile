@@ -14,6 +14,7 @@ COPY package-lock.json ./
 #install npm and react versions.
 RUN npm install --silent
 RUN npm install react-scripts@5.0.1 -g --silent
+RUN npm install axios
 
 #install nodemon to provide hot-reloading functionality.
 RUN npm install nodemon --save-dev
