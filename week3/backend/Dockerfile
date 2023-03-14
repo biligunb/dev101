@@ -7,6 +7,7 @@ WORKDIR /app
 # Copy app files
 COPY package*.json ./
 RUN npm install
+RUN npm install --save @nestjs/typeorm typeorm mysql2
 
 COPY . .
 
@@ -18,4 +19,4 @@ COPY . .
 # EXPOSE 3000
 
 # Start the app
-CMD [ "npm", "run", "start:dev" ]
+CMD [ "npm", "run", "start" ]
