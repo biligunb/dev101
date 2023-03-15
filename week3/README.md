@@ -11,3 +11,25 @@
   - 3001 outside 3000 inside container
 - frontend : Front-End React.js
   - 3002 outside 3000 inside container
+
+### Username and password
+  {
+    id: 0,
+    name: 'Bob',
+    email: 'bob@gmail.com',
+    password: 'bobPass',
+  },
+
+  {
+    id: 1,
+    name: 'John',
+    email: 'john@gmail.com',
+    password: 'johnPass',
+  },
+
+  {
+    id: 2,
+    name: 'Gary',
+    email: 'gary@gmail.com',
+    password: 'garyPass',
+  },
