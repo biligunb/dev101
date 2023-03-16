@@ -26,7 +26,7 @@ export class AuthService {
             userId: refreshToken.userId,
         };
 
-        return sign(accessToken, process.env.ACCESS_SECRET,{expiresIn: '1h'});
+        return sign(accessToken, process.env.ACCESS_SECRET,{expiresIn: process.env.EXPIRE_TIME});
     }
 
     private retrieveRefreshToken(

@@ -20,6 +20,7 @@ import { User } from './users/entities/user.entity';
       entities: [User],
       synchronize: true,
     }),
+    TypeOrmModule.forFeature([User]),
     UsersModule,
     AuthModule,
     ConfigModule.forRoot()
