@@ -3,6 +3,7 @@ import RefreshToken from './entities/refresh-token.entity';
 import { UsersService } from 'src/users/users.service';
 import { sign, verify } from 'jsonwebtoken';
 import { User } from 'src/users/entities/user.entity';
+import * as bcrypt from 'bcrypt'
 
 @Injectable()
 export class AuthService {
@@ -52,12 +53,13 @@ export class AuthService {
         values:{userAgent:string; ipAddress: string},
     ): Promise<{accessToken:string; refreshToken: string}
  | undefined>{
-    const user = await this.userService.findByEmail(email);
+    const user = await this.userService.findbyem(email);
     if (!user){
         throw new BadRequestException('Invalid credantials');
     }
 
-    if (user.password !== password){
+    if (!await bcrypt.compare(password, user.password)){
+        
         throw new BadRequestException('Invalid credantials');
     }
 

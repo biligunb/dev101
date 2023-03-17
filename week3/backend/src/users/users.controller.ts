@@ -28,4 +28,10 @@ export class UsersController {
     })
   }
 
+
+  @Get('/all')
+  all(@Req() request) {
+    return this.usersService.findall()
+  }
+
 }
