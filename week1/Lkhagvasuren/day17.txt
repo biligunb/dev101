@@ -1,0 +1,54 @@
+burhan ba negjiin test
+
+burhan bid hoyr meddeg bsn code-oo daraa ni harahad burhan l gantshan medheer uy baidag shuu.
+ter uyd yah ystoi ve? ternees yaj sergiileh ve?
+
+hogjuulegched tulgardag, hamgiin ih tsag avdag uy bol huuchin codeoo oilgoh ym. heterhii uhaantai bichigdsen bn aa gesen ug.
+
+ooriinhoo tsagaa ur buteemjtei bolgoh bolomj bol test code hiih.
+test code dotroo olon toroltei, unit, integration, monkey, performance geh met.
+yronhiid ni 3n torold white, black, grey box gej bolno.
+white box buyu, codiin tuvshind yu, haana yaj baigaagaa medej baigaa.
+harin black ni bol hoid systemee haralguigeer, zovhon user tald ni test hiij baigaa,
+harin grey box ni hoyulangiig ni hosluulsan bogood integration testiin hiihed hamgiin tohiromjtoi.
+
+testiig neg bol functional esvel non functional gej yalgaj bolno.
+
+unit testiin huvid:
+aldaagaa ert oloh tusam iluu hylbar, amar, ortog bagatai bn.
+tiim bolhoor ert uyd ni buyu unit testing uyd oloh ni ashigtai.
+
+unit test-d
+method, data, expected bolon actual value bn.
+
+test hiihed given,when,then gesen zagvar bn.
+
+given buyu ogson data deer ymar uildel hiihed daraa ni ymar ur dun garj baigaa ve gedeg.
+
+actual value deer valid bolon invalid case bn. jishee ni 1-100giin orond too oruulah ystoi bhd ternees hyzgaaraas davsan hariu garahad yaj bn ve gedeg.
+
+scenario testing gej harin yu ve:
+integration testiin uyeer neleen tsag avdag. ene ni uitgartai, bas udaan.
+uuniig avtomatjuulj gehdee bolno. terend ni selenium ashiglana.
+hiih uildluudee oruulaad, ajilluulahad code bichihguigeer hiisen uildliig ni duuraij hiij chaddag.
+dotroo olon platform deer ondoo baigaa. web deer bol selenium ide. uuniig extension bolgoj suulgaad l boloo.
+davuu tal olontoi ch mon sul taltai.
+
+ur dungee test, value, photo geh meteer olon torloor avj boloh ba codeguigeer heregjuulj bolno.
+
+jmeter ashiglan performance test hiih:
+performance test gej yu ve:
+yronhiidoo ajillaj bn uu, hereglegchee daah nuu, orgojij chadah nuu, togtvortoi ajillaj bn uu gedeg test.
+dotor torol ni:
+stress
+spike
+scalability
+load
+endurance
+bolon volume
+
+uuniig hiideg apache Jmeter, loadrunner, webload, loadui, loadview, neoload gej met bn.
+
+jmeter ni yadag ve. uu ni java deer buren hiigdesen opensource program ym. functional testiin achaalliig daaj ajilladag. web application buh zuild bolno.
+
+yaj ajilladag ve geheer request serverluu shidej, tuunii daguu bolovruulj, hariug ni ogood, teriig ni hadgalaad, tuun deer assertion hiigeed, tegeed statistic gargaad, urgeljluulne.
