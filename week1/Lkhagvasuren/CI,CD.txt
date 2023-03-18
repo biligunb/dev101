@@ -1,0 +1,22 @@
+GitLab CI/CD (Continuous Delivery гэж юу вэ?)
+
+CI buyu continuous integration bol automataar testing hih ym. 
+
+CD buyu continuoys delivery gedeg ni CI daraa hereglegch nariin gart shuud hureh automatjuulalt ym.
+
+hunii oroltsoo baihgui CD bol continuous deployment. Hogjuulegch codeoo push hiile. automataar CI daraa ni CD.
+
+Gitlab deer CI deer negjiin test tohiruulsan node.js-tei CD (delivery) hiij boldog.
+
+
+Gitlab CI huvid:
+build,test hiij bdg.
+1. ICS hereglegch, 2 VM, Gitlab CE
+2. Gitlab runner on VM
+3. GitLab deer project uusgeh
+
+Gitlab CD huvid:
+packagelana gesen ug.
+1. Shine VM uusgeh
+2. Shine deploy stage nemne
+
